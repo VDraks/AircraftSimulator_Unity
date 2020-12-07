@@ -18,6 +18,9 @@ namespace App.Scripts.Ui {
         
         [SerializeField]
         private TextMeshProUGUI _textScore = null;
+        
+        [SerializeField]
+        private PlayerController _player = null;
 
         private readonly List<DistanceUi> _distanceList = new List<DistanceUi>();
         
@@ -45,7 +48,7 @@ namespace App.Scripts.Ui {
             var distanceUi = _distanceList[index];
             distanceUi.gameObject.SetActive(true);
 
-            var distance = Vector3.Distance(Camera.main.transform.position, enemy.transform.position);
+            var distance = Vector3.Distance(_player.transform.position, enemy.transform.position);
 
             distanceUi.SetData(screenPoint, distance);
         }

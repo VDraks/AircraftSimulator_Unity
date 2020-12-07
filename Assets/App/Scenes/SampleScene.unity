@@ -300,8 +300,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 267032749}
-  m_LocalRotation: {x: -0.09121907, y: -0.000000017134644, z: -0.0000000015695498,
-    w: 0.9958309}
+  m_LocalRotation: {x: -0.09121907, y: 0.000000017134646, z: 0.0000000015695499, w: 0.9958309}
   m_LocalPosition: {x: 0, y: 80, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1286,8 +1285,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0.09121907, y: -0.000000017134644, z: -0.0000000015695498,
-    w: 0.9958309}
+  m_LocalRotation: {x: -0.09121907, y: 0.000000017134646, z: 0.0000000015695499, w: 0.9958309}
   m_LocalPosition: {x: 0, y: 80, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1371,6 +1369,7 @@ MonoBehaviour:
   _textContainer: {fileID: 616662110}
   _scoreManager: {fileID: 75745679}
   _textScore: {fileID: 903248186}
+  _player: {fileID: 1184214061}
 --- !u!114 &1035052729
 MonoBehaviour:
   m_ObjectHideFlags: 0
